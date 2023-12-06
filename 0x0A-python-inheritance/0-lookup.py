@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+"""
+=============================
+Module with the method lookpu
+=============================
+"""
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
+    """Function for return the attributes for an object"""
+
     return dir(obj)
