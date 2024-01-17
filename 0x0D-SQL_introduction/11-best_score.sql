@@ -1,5 +1,5 @@
--- Lists  all records with a score >= 10 in the table second_table.
--- Records a ordered by ascending order.
+-- Lists all records of the table second_table.
+-- Records are ordered by descending score.
 SELECT `score`, `name`
 FROM `second_table`
 ORDER BY `score` DESC;
